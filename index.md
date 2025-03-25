@@ -20,4 +20,4 @@ permalink: /
 **Присоединяйтесь к Ailingo и начните учить язык по-новому!**
 
 <a href="/how-it-works" class="btn btn-primary"> Как это работает?</a>
-<a href="/try" class="btn btn-success"> Попробовать Ailingo</a>
+<a href="https://ailingo.artux.net" class="btn btn-success"> Попробовать Ailingo</a>
