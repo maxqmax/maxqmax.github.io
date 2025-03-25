@@ -120,17 +120,30 @@ keywords: "изучение языков, Ailingo, языковые диалог
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
+
+# --- Цвета сайта ---
+page-col: "#F9F9FF"  # Цвет фона (backgroundLight)
+text-col: "#191C20"  # Цвет основного текста (onBackgroundLight)
+link-col: "#39A7FF"  # Цвет ссылок (ColorForMainTextDictionary)
+hover-col: "#87C4FF"  # Цвет при наведении (ColorForSynonymsDictionary)
+navbar-col: "#415F91"  # Цвет навбара (primaryLight)
+navbar-text-col: "#FFFFFF"  # Цвет текста в навбаре (onPrimaryLight)
+footer-col: "#111318"  # Цвет фона футера (backgroundDark)
+footer-text-col: "#E2E2E9"  # Цвет текста в футере (onBackgroundDark)
+footer-link-col: "#AAC7FF"  # Цвет ссылок в футере (inversePrimaryLight)
+footer-hover-col: "#D6E3FF"  # Цвет ссылок в футере при наведении (primaryContainerLight)
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
