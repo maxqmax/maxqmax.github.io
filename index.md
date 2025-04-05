@@ -40,7 +40,9 @@ permalink: /
         <p>Повторяйте слова, которые встретились в диалогах</p>
       </div>
     </div>
-    
+  </div>
+
+  <div class="row">
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-graduation-cap fa-3x mb-3 text-warning"></i>
@@ -54,6 +56,14 @@ permalink: /
         <i class="fas fa-trophy fa-3x mb-3 text-danger"></i>
         <h3>Геймификация</h3>
         <p>Награды, страйки, бонусы и рейтинг</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="feature-card text-center p-4">
+        <i class="fas fa-robot fa-3x mb-3 text-secondary"></i>
+        <h3>Искусственный интеллект</h3>
+        <p>Умный бот, который адаптируется под ваш уровень</p>
       </div>
     </div>
   </div>
@@ -71,6 +81,7 @@ permalink: /
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  height: 100%;
 }
 
 .feature-card:hover {
@@ -84,5 +95,9 @@ permalink: /
 .btn-lg {
   padding: 1rem 2rem;
   font-weight: 600;
+}
+
+body {
+  font-family: 'Comfortaa', 'Segoe UI', sans-serif;
 }
 </style>
