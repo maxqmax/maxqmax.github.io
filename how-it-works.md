@@ -5,8 +5,6 @@ permalink: /how-it-works/
 ---
 
 <div class="how-it-works-container">
-  <h1 class="text-center mb-5">Как работает Ailingo?</h1>
-
   <div class="row mb-5">
     <div class="col-md-8 mx-auto">
       <div class="card feature-card">
