@@ -111,30 +111,31 @@ permalink: /how-it-works/
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 100%;
-  padding: 2rem;
+  padding: 2.5rem;
+  background: white;
 }
 
 .feature-card h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
-  min-height: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2d3748;
 }
 
 .feature-card .lead {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  color: #4a5568;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 0;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #4a5568;
 }
 
 .feature-card:hover {
@@ -143,50 +144,63 @@ permalink: /how-it-works/
 
 .examples-box {
   background: #f8f9fa;
-  border-radius: 10px;
-  padding: 2rem;
-  margin: 2rem 0;
+  border-radius: 15px;
+  padding: 2.5rem;
+  margin: 2.5rem 0;
 }
 
 .examples-box h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #2d3748;
 }
 
 .badge {
-  font-size: 1rem;
-  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
   margin: 0.5rem;
   font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .btn-lg {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  min-width: 200px;
+  min-width: 220px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 .dialogue-description {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .dialogue-description p {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.list-unstyled {
+  padding: 0 1rem;
 }
 
 .list-unstyled li {
-  padding: 0.75rem 0;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
+  font-size: 1.1rem;
+  color: #4a5568;
 }
 
 .list-unstyled i {
   flex-shrink: 0;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+  font-size: 1.25rem;
 }
 
 body {
@@ -196,10 +210,29 @@ body {
 @media (max-width: 768px) {
   .feature-card {
     margin-bottom: 1.5rem;
+    padding: 2rem;
   }
   
   .feature-card h2 {
-    min-height: auto;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .examples-box {
+    padding: 1.5rem;
+  }
+
+  .badge {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .dialogue-description {
+    padding: 0 1rem;
+  }
+
+  .list-unstyled li {
+    font-size: 1rem;
   }
 }
 </style>
