@@ -74,150 +74,96 @@ permalink: /
 
 .hero-section {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  border-radius: 15px;
-  margin: 0 -2rem 4rem;
-  padding: 5rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 3rem 1rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .hero-section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  margin-bottom: 2rem;
-  font-size: 3.5rem;
-  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
 }
 
 .hero-section p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  max-width: 900px;
-  margin: 0 auto 2.5rem;
-  line-height: 1.7;
-  font-size: 1.35rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
 }
 
 .features-section {
-  padding: 4rem 2rem;
-  margin: 0 -2rem;
-}
-
-.features-section h2 {
-  font-size: 2.75rem;
-  margin-bottom: 4rem;
-  font-weight: 600;
-  letter-spacing: -0.5px;
+  padding: 4rem 0;
 }
 
 .feature-card {
   background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  margin: 0.5rem;
+  padding: 2rem;
 }
 
-.feature-card i {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+.feature-card .icon-wrapper {
+  margin-bottom: 1.5rem;
 }
 
 .feature-card h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #2d3748;
-  letter-spacing: -0.5px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  min-height: 2rem;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #4a5568;
+  font-size: 1rem;
+  line-height: 1.6;
   margin: 0;
-  padding: 0 0.5rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-height: 4.8rem;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .cta-buttons {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 
 .btn-lg {
-  padding: 1.25rem 3rem;
+  padding: 1rem 2rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  min-width: 240px;
-  font-size: 1.2rem;
-  letter-spacing: 0.5px;
-  margin: 0 1rem;
+  min-width: 200px;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .row {
-  margin: 0 -0.5rem 3rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
-  .hero-section {
-    margin: 0 -1rem 3rem;
-    padding: 3rem 1rem;
-  }
-
-  .hero-section h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-section p {
-    font-size: 1.15rem;
-    padding: 0 1rem;
-  }
-
-  .features-section {
-    padding: 3rem 1rem;
-    margin: 0 -1rem;
-  }
-
-  .features-section h2 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
-
   .feature-card {
     margin-bottom: 1.5rem;
-    padding: 2rem;
   }
   
-  .feature-card h3 {
-    font-size: 1.75rem;
-  }
-
   .feature-card p {
-    font-size: 1.1rem;
-    padding: 0;
-  }
-
-  .btn-lg {
-    min-width: 200px;
-    margin: 0.5rem;
-    padding: 1rem 2rem;
+    min-height: auto;
   }
 }
 </style>
