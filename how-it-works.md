@@ -99,7 +99,7 @@ permalink: /how-it-works/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
 .how-it-works-container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -108,172 +108,131 @@ permalink: /how-it-works/
 .feature-card {
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   height: 100%;
-  padding: 3.5rem;
+  padding: 2.5rem;
   background: white;
-  margin: 0.5rem;
 }
 
 .feature-card h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 2.25rem;
-  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: #2d3748;
-  letter-spacing: -0.5px;
 }
 
 .feature-card .lead {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   line-height: 1.7;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   color: #4a5568;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #4a5568;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .examples-box {
   background: #f8f9fa;
   border-radius: 15px;
-  padding: 3rem;
-  margin: 3rem 0;
+  padding: 2.5rem;
+  margin: 2.5rem 0;
 }
 
 .examples-box h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 1.75rem;
-  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   color: #2d3748;
-  letter-spacing: -0.5px;
 }
 
 .badge {
-  font-size: 1.2rem;
-  padding: 0.85rem 2.5rem;
-  margin: 0.75rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+  margin: 0.5rem;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
 
 .btn-lg {
-  padding: 1.25rem 3rem;
+  padding: 1rem 2.5rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  min-width: 240px;
-  font-size: 1.2rem;
+  min-width: 220px;
+  font-size: 1.1rem;
   letter-spacing: 0.5px;
-  margin-top: 2rem;
 }
 
 .dialogue-description {
-  padding: 0 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .dialogue-description p {
+  max-width: 900px;
+  margin: 0 auto;
   line-height: 1.8;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .list-unstyled {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .list-unstyled li {
-  padding: 1.25rem 0;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #4a5568;
 }
 
 .list-unstyled i {
   flex-shrink: 0;
-  margin-right: 2rem;
-  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.25rem;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-.row {
-  margin: 0 -0.5rem 4rem;
-}
-
 @media (max-width: 768px) {
-  .how-it-works-container {
-    padding: 1rem;
-  }
-
   .feature-card {
     margin-bottom: 1.5rem;
-    padding: 2.5rem;
+    padding: 2rem;
   }
   
   .feature-card h2 {
     font-size: 1.75rem;
-    margin-bottom: 2rem;
-  }
-
-  .feature-card .lead {
-    font-size: 1.15rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .examples-box {
-    padding: 2rem;
-    margin: 2rem 0;
+    padding: 1.5rem;
   }
 
   .badge {
-    font-size: 1.1rem;
-    padding: 0.75rem 2rem;
-    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
   }
 
   .dialogue-description {
-    padding: 0;
-  }
-
-  .dialogue-description p {
-    font-size: 1.1rem;
-  }
-
-  .list-unstyled {
     padding: 0 1rem;
   }
 
   .list-unstyled li {
-    font-size: 1.1rem;
-    padding: 1rem 0;
-  }
-
-  .list-unstyled i {
-    margin-right: 1.5rem;
-    font-size: 1.25rem;
-  }
-
-  .row {
-    margin: 0 -0.5rem 3rem;
+    font-size: 1rem;
   }
 }
 </style>
