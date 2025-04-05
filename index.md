@@ -20,24 +20,24 @@ permalink: /
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-comments fa-3x mb-3 text-primary"></i>
-        <h3>Тематические диалоги</h3>
-        <p>Выбирайте топики и практикуйте язык в реальных ситуациях</p>
+        <h3>Диалоги</h3>
+        <p>Практикуйте язык в реальных ситуациях с помощью тематических диалогов</p>
       </div>
     </div>
     
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-chart-line fa-3x mb-3 text-success"></i>
-        <h3>Умная статистика</h3>
-        <p>Анализ ваших слов, грамматики и стиля речи</p>
+        <h3>Статистика</h3>
+        <p>Отслеживайте прогресс в изучении слов, грамматики и стиля речи</p>
       </div>
     </div>
     
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-book fa-3x mb-3 text-info"></i>
-        <h3>Личный словарик</h3>
-        <p>Повторяйте слова, которые встретились в диалогах</p>
+        <h3>Словарик</h3>
+        <p>Создавайте личный словарь на основе пройденных диалогов</p>
       </div>
     </div>
   </div>
@@ -46,24 +46,24 @@ permalink: /
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-graduation-cap fa-3x mb-3 text-warning"></i>
-        <h3>Лекционные материалы</h3>
-        <p>Интерактивные мини-уроки с маскотом</p>
+        <h3>Обучение</h3>
+        <p>Проходите интерактивные мини-уроки с дружелюбным маскотом</p>
       </div>
     </div>
     
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-trophy fa-3x mb-3 text-danger"></i>
-        <h3>Геймификация</h3>
-        <p>Награды, страйки, бонусы и рейтинг</p>
+        <h3>Игровой формат</h3>
+        <p>Получайте награды и бонусы за ежедневные занятия</p>
       </div>
     </div>
 
     <div class="col-md-4 mb-4">
       <div class="feature-card text-center p-4">
         <i class="fas fa-robot fa-3x mb-3 text-secondary"></i>
-        <h3>Искусственный интеллект</h3>
-        <p>Умный бот, который адаптируется под ваш уровень</p>
+        <h3>AI-помощник</h3>
+        <p>Общайтесь с ботом, который подстраивается под ваш уровень</p>
       </div>
     </div>
   </div>
@@ -82,6 +82,20 @@ permalink: /
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .feature-card:hover {
