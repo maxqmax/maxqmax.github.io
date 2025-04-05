@@ -70,10 +70,23 @@ permalink: /
 </div>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
 .hero-section {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 10px;
   margin-bottom: 2rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.hero-section h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .feature-card {
@@ -88,11 +101,15 @@ permalink: /
 }
 
 .feature-card h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .feature-card p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 0;
@@ -109,9 +126,10 @@ permalink: /
 .btn-lg {
   padding: 1rem 2rem;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  font-family: 'Comfortaa', 'Segoe UI', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 </style>
