@@ -25,7 +25,7 @@ permalink: /how-it-works/
           </div>
 
           <div class="dialogue-description">
-            <p class="text-center">Выберите интересную тему для разговора, и бот станет вашим собеседником в этой ситуации. Отвечайте голосом или текстом, используя удобные подсказки. Бот поддержит естественный диалог и поможет практиковать язык в реальных ситуациях. После диалога вы получите монеты для открытия новых тем, а за регулярные занятия — дополнительные бонусы. Все новые слова автоматически попадают в ваш личный словарик для повторения.</p>
+            <p class="text-center">Вы выбираете интересную вам тему, и начинается живой диалог с умным ботом. Он понимает контекст, отвечает естественно и помогает вам практиковать язык в реальных ситуациях. В процессе диалога вы получаете подсказки и обратную связь.</p>
           </div>
         </div>
       </div>
@@ -110,17 +110,31 @@ permalink: /how-it-works/
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  height: 100%;
+  padding: 2rem;
 }
 
 .feature-card h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  margin-bottom: 1.5rem;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card .lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .feature-card:hover {
@@ -130,12 +144,20 @@ permalink: /how-it-works/
 .examples-box {
   background: #f8f9fa;
   border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.examples-box h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .badge {
   font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin: 0.25rem;
+  padding: 0.5rem 1.5rem;
+  margin: 0.5rem;
   font-family: 'Inter', sans-serif;
 }
 
@@ -143,9 +165,41 @@ permalink: /how-it-works/
   padding: 1rem 2rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
+  min-width: 200px;
+}
+
+.dialogue-description {
+  padding: 0 1rem;
+}
+
+.dialogue-description p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.list-unstyled li {
+  padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.list-unstyled i {
+  flex-shrink: 0;
+  margin-right: 1rem;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-card h2 {
+    min-height: auto;
+  }
 }
 </style>
