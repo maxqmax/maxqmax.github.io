@@ -114,6 +114,9 @@ navbar-var-length: false
 # The keywords to associate with your website, for SEO purposes
 keywords: "изучение языков, Ailingo, языковые диалоги, интеллект, обучение, лингвистика"
 
+# Убрать Powered by Beautiful Jekyll
+show-credits: false
+
 ######################################
 # --- Colours / background image --- #
 ######################################
