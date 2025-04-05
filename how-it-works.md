@@ -26,37 +26,8 @@ permalink: /how-it-works/
             </div>
           </div>
 
-          <div class="dialogue-structure">
-            <h4 class="text-center mb-3">Структура диалога:</h4>
-            <div class="timeline">
-              <div class="timeline-item">
-                <div class="timeline-icon bg-primary">
-                  <i class="fas fa-1"></i>
-                </div>
-                <div class="timeline-content">
-                  <h5>Welcome-prompt</h5>
-                  <p>Бот начинает разговор (например, "Привет! Куда едем?")</p>
-                </div>
-              </div>
-              <div class="timeline-item">
-                <div class="timeline-icon bg-success">
-                  <i class="fas fa-2"></i>
-                </div>
-                <div class="timeline-content">
-                  <h5>System-prompt</h5>
-                  <p>Определяет тему и поведение бота</p>
-                </div>
-              </div>
-              <div class="timeline-item">
-                <div class="timeline-icon bg-info">
-                  <i class="fas fa-3"></i>
-                </div>
-                <div class="timeline-content">
-                  <h5>End-prompt</h5>
-                  <p>Завершение диалога (например, "Вы приехали, с вас 300 рублей!")</p>
-                </div>
-              </div>
-            </div>
+          <div class="dialogue-description">
+            <p class="text-center">Вы выбираете интересную вам тему, и начинается живой диалог с умным ботом. Он понимает контекст, отвечает естественно и помогает вам практиковать язык в реальных ситуациях. В процессе диалога вы получаете подсказки и обратную связь, а новые слова автоматически добавляются в ваш личный словарик.</p>
           </div>
         </div>
       </div>
@@ -149,46 +120,18 @@ permalink: /how-it-works/
   border-radius: 10px;
 }
 
-.timeline {
-  position: relative;
-  padding: 2rem 0;
-}
-
-.timeline-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.timeline-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin-right: 1rem;
-  flex-shrink: 0;
-}
-
-.timeline-content {
-  flex-grow: 1;
-}
-
-.timeline-content h5 {
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
 .badge {
   font-size: 1rem;
   padding: 0.5rem 1rem;
+  margin: 0.25rem;
 }
 
 .btn-lg {
   padding: 1rem 2rem;
   font-weight: 600;
+}
+
+body {
+  font-family: 'Comfortaa', 'Segoe UI', sans-serif;
 }
 </style>
