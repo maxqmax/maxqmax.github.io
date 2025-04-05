@@ -76,17 +76,26 @@ permalink: /
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 10px;
   margin-bottom: 2rem;
+  padding: 3rem 1rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .hero-section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 .hero-section p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.features-section {
+  padding: 4rem 0;
 }
 
 .feature-card {
@@ -97,7 +106,11 @@ permalink: /
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 2rem;
+}
+
+.feature-card .icon-wrapper {
+  margin-bottom: 1.5rem;
 }
 
 .feature-card h3 {
@@ -105,14 +118,20 @@ permalink: /
   font-weight: 500;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  min-height: 2rem;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 0;
+  line-height: 1.6;
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-height: 4.8rem;
 }
 
 .feature-card:hover {
@@ -120,16 +139,31 @@ permalink: /
 }
 
 .cta-buttons {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .btn-lg {
   padding: 1rem 2rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
+  min-width: 200px;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-card p {
+    min-height: auto;
+  }
 }
 </style>
