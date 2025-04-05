@@ -25,7 +25,7 @@ permalink: /how-it-works/
           </div>
 
           <div class="dialogue-description">
-            <p class="text-center">Вы выбираете интересную вам тему, и начинается живой диалог с умным ботом. Он понимает контекст, отвечает естественно и помогает вам практиковать язык в реальных ситуациях. В процессе диалога вы получаете подсказки и обратную связь.</p>
+            <p class="text-center">Выберите интересную тему для разговора, и бот станет вашим собеседником в этой ситуации. Отвечайте голосом или текстом, используя удобные подсказки. Бот поддержит естественный диалог и поможет практиковать язык в реальных ситуациях. После диалога вы получите монеты для открытия новых тем, а за регулярные занятия — дополнительные бонусы. Все новые слова автоматически попадают в ваш личный словарик для повторения.</p>
           </div>
         </div>
       </div>
@@ -96,10 +96,13 @@ permalink: /how-it-works/
 </div>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
 .how-it-works-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .feature-card {
@@ -107,6 +110,17 @@ permalink: /how-it-works/
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+.feature-card h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.feature-card p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .feature-card:hover {
@@ -122,14 +136,16 @@ permalink: /how-it-works/
   font-size: 1rem;
   padding: 0.5rem 1rem;
   margin: 0.25rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .btn-lg {
   padding: 1rem 2rem;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  font-family: 'Comfortaa', 'Segoe UI', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 </style>
