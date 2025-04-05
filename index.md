@@ -75,8 +75,8 @@ permalink: /
 .hero-section {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 10px;
-  margin-bottom: 2rem;
-  padding: 3rem 1rem;
+  margin-bottom: 3rem;
+  padding: 4rem 1rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
@@ -84,6 +84,7 @@ permalink: /
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   margin-bottom: 1.5rem;
+  font-size: 3.2rem;
 }
 
 .hero-section p {
@@ -92,46 +93,51 @@ permalink: /
   max-width: 800px;
   margin: 0 auto 2rem;
   line-height: 1.6;
+  font-size: 1.25rem;
 }
 
 .features-section {
   padding: 4rem 0;
 }
 
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
 .feature-card {
   background: white;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
 }
 
-.feature-card .icon-wrapper {
+.feature-card i {
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
 .feature-card h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  min-height: 2rem;
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+  color: #2d3748;
 }
 
 .feature-card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568;
   margin: 0;
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  min-height: 4.8rem;
+  padding: 0 1rem;
 }
 
 .feature-card:hover {
@@ -143,10 +149,12 @@ permalink: /
 }
 
 .btn-lg {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  min-width: 200px;
+  min-width: 220px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 body {
@@ -154,16 +162,34 @@ body {
 }
 
 .row {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 @media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+
+  .features-section h2 {
+    font-size: 2rem;
+  }
+
   .feature-card {
     margin-bottom: 1.5rem;
+    padding: 2rem 1.5rem;
   }
   
+  .feature-card h3 {
+    font-size: 1.5rem;
+  }
+
   .feature-card p {
-    min-height: auto;
+    font-size: 1rem;
+    padding: 0;
   }
 }
 </style>
